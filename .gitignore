@@ -1,2 +1,5 @@
 # Project exclude paths
 /venv/
+*/__pycache__
+*/migrations/__pycache__
+/.idea
