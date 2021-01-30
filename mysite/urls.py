@@ -20,6 +20,6 @@ from django.urls import path, include
 # Routers provide an easy way of automatically determining the URL conf.
 
 urlpatterns = [
-    path('', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('polls/', include('polls.urls'))
 ]
